@@ -1,0 +1,56 @@
+/* Font-Size */
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-40 {
+  font-size: 50px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Text Color */
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-cyan {
+  color: cyan;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.text-dark-blue {
+  color: #133e87;
+}
+
+/* Font Settings */
+
+body {
+  font-family: sans-serif;
+}
