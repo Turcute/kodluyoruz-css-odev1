@@ -29,6 +29,10 @@ p {
   color: red;
 }
 
+.text-darkred {
+  color: rgb(234, 40, 40);
+}
+
 .text-blue {
   color: blue;
 }
@@ -53,4 +57,71 @@ p {
 
 body {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9ecef !important;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+  background-color: seagreen;
+  width: 100%;
+  height: 50px;
+  margin-top: 0;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.ul-ps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.row {
+  width: 1000px;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-bottom: 30px;
+  padding: 10px;
+  height: 400px !important;
 }
